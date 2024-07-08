@@ -1,0 +1,32 @@
+.button {
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgba(26, 139, 180, 0.709);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.secondarybutton {
+  background-color: hsl(147, 68%, 48%);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.inputName {
+  background-color: rgb(255, 0, 225);
+  color: black;
+  margin-right: 20px;
+}
+.inputName::placeholder {
+  color: black;
+}
