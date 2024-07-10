@@ -11,6 +11,7 @@ import EffectTutorial from './EffectTutorial.jsx';
 import RefTutorial from './RefTutorial.jsx';
 import LayoutEffectTutorial from './LayoutEffectTutorial.jsx';
 import ContextTutorial from './ContextTutorial.jsx';
+import MemoTutorial from './MemoTutorial.jsx';
 
 
 function App() {
@@ -34,6 +35,8 @@ function App() {
       <StateTutorial/>
       <Footer/>
 
+      <MemoTutorial/>
+      <br></br>
       <EffectTutorial/>
       <br></br>
       <ContextTutorial/>
