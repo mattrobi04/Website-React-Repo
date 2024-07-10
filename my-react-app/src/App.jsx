@@ -10,6 +10,8 @@ import ReducerTutorial from './ReducterHook.jsx';
 import EffectTutorial from './EffectTutorial.jsx';
 import RefTutorial from './RefTutorial.jsx';
 import LayoutEffectTutorial from './LayoutEffectTutorial.jsx';
+import ContextTutorial from './ContextTutorial.jsx';
+
 
 function App() {
   
@@ -25,6 +27,7 @@ function App() {
       <ReducerTutorial/>
 
       <Student name="George" age={40} isStudent={true}/>
+      <br></br>
       <LayoutEffectTutorial/>
       <List/>
       <Student/> 
@@ -32,6 +35,8 @@ function App() {
       <Footer/>
 
       <EffectTutorial/>
+      <br></br>
+      <ContextTutorial/>
     </>
   );
 }
