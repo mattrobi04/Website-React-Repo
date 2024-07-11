@@ -12,6 +12,7 @@ import RefTutorial from './RefTutorial.jsx';
 import LayoutEffectTutorial from './LayoutEffectTutorial.jsx';
 import ContextTutorial from './ContextTutorial.jsx';
 import MemoTutorial from './MemoTutorial.jsx';
+import CallBackTutorial from './CallbackTutorial.jsx';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
       <RefTutorial/>
       <br></br>
       <UserGreeting isLoggedIn={true} username="mattrobi04"></UserGreeting>
+      <br></br>
+      <CallBackTutorial/>
       <Card/>
       <Button/>
       <MoveSquare />
